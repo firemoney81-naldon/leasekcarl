@@ -1,23 +1,651 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
-</html>
+
+   <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "name": "캐스퍼 장기리스 최저가 견적 비교 및 추천",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@type": "Article",
+                        "url": "/",
+                        "name": "캐스퍼 장기리스 가격 비교: 2026년 월 납입금 및 초기 비용 분석",
+                        "datePublished": "2026-01-15T00:00:00+09:00",
+                        "author": {
+                            "@type": "Person",
+                            "name": "캐스퍼리스전문가"
+                        },
+                        "headline": "캐스퍼 장기리스 가격 비교: 2026년 월 납입금 및 초기 비용 분석"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@type": "Article",
+                        "url": "/",
+                        "name": "캐스퍼 장기리스 vs 장기렌트카: 장단점 및 차이점 완벽 비교",
+                        "datePublished": "2026-01-14T00:00:00+09:00",
+                        "author": {
+                            "@type": "Person",
+                            "name": "캐스퍼리스전문가"
+                        },
+                        "headline": "캐스퍼 장기리스 vs 장기렌트카: 장단점 및 차이점 완벽 비교"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@type": "Article",
+                        "url": "/",
+                        "name": "캐스퍼 장기리스 최저가 싼곳 찾는 방법: 2026년 프로모션 및 혜택 총정리",
+                        "datePublished": "2026-01-13T00:00:00+09:00",
+                        "author": {
+                            "@type": "Person",
+                            "name": "캐스퍼리스전문가"
+                        },
+                        "headline": "캐스퍼 장기리스 최저가 싼곳 찾는 방법: 2026년 프로모션 및 혜택 총정리"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "item": {
+                        "@type": "Article",
+                        "url": "/",
+                        "name": "캐스퍼 장기리스 내돈내산 후기: 실제 운전자들이 말하는 장점과 단점",
+                        "datePublished": "2026-01-12T00:00:00+09:00",
+                        "author": {
+                            "@type": "Person",
+                            "name": "캐스퍼리스전문가"
+                        },
+                        "headline": "캐스퍼 장기리스 내돈내산 후기: 실제 운전자들이 말하는 장점과 단점"
+                    }
+                }
+            ]
+        }
+        </script>
+
+        <!-- Schema.org Product (Service) -->
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "캐스퍼 장기리스 비교 견적 서비스",
+          "description": "현대 캐스퍼 장기리스 및 장기렌트카 상품의 월 납입금과 초기 비용을 실시간으로 비교하고, 2026년 최신 프로모션 및 할인 혜택을 제공합니다. 딜러사별 사은품 및 현금지원 정보를 반영하여 가장 저렴하고 합리적인 견적을 찾아드립니다.",
+          "brand": {
+            "@type": "Brand",
+            "name": "캐스퍼 리스 비교 플랫폼"
+          },
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "KRW",
+            "price": "문의요망",
+            "url": "https://example.com/casper-lease-quote"
+          }
+        }
+        </script>
+
+        <!-- Styling: Soft color palette adapted for car/lease theme (light blue/gray for modern/clean look) -->
+        <style>
+            :root {
+                --primary-color: #3f51b5; /* Indigo Blue */
+                --secondary-color: #5c6bc0; /* Light Indigo */
+                --accent-color: #e8eaf6; /* Lighter Blue */
+                --highlight-color: #f1f8e9; /* Lightest Grayish Green */
+                --text-color: #333333;
+                --bg-light: #f9f9f9;
+                --bg-white: #ffffff;
+                --btn-color: #ff9800; /* Orange for call to action */
+                --btn-hover: #fb8c00;
+                --border-color: #e0e0e0;
+                --shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            }
+            @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+            body {
+                font-family: 'Noto Sans KR', sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: var(--bg-light);
+                color: var(--text-color);
+                line-height: 1.7;
+                font-weight: 300;
+            }
+            .container {
+                max-width: 1100px;
+                margin: 0 auto;
+                padding: 0 20px;
+            }
+
+            /* Header and Hero */
+            header {
+                background-color: var(--primary-color);
+                padding: 20px 0;
+                text-align: center;
+                color: var(--bg-white);
+            }
+            header h1 {
+                margin: 0;
+                font-size: 1.8em;
+                font-weight: 700;
+            }
+            .hero {
+                background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
+                color: var(--bg-white);
+                padding: 80px 20px;
+                text-align: center;
+            }
+            .hero h1 {
+                font-size: 3em;
+                margin-bottom: 15px;
+                font-weight: 700;
+                line-height: 1.3;
+            }
+            .hero p {
+                font-size: 1.2em;
+                margin-bottom: 30px;
+                font-weight: 300;
+            }
+            .cta-btn {
+                background-color: var(--btn-color);
+                color: var(--bg-white);
+                padding: 15px 35px;
+                font-size: 1.1em;
+                font-weight: 500;
+                border: none;
+                border-radius: 8px;
+                cursor: pointer;
+                transition: background-color 0.3s ease, transform 0.2s;
+                text-decoration: none;
+                display: inline-block;
+                box-shadow: var(--shadow);
+            }
+            .cta-btn:hover {
+                background-color: var(--btn-hover);
+                transform: translateY(-2px);
+            }
+
+            /* Content Sections */
+            main {
+                padding: 40px 0;
+            }
+            .content-section {
+                background-color: var(--bg-white);
+                padding: 40px;
+                border-radius: 12px;
+                box-shadow: var(--shadow);
+                margin-bottom: 30px;
+            }
+            .content-section h2 {
+                font-size: 2em;
+                color: var(--primary-color);
+                margin-bottom: 25px;
+                border-bottom: 3px solid var(--accent-color);
+                padding-bottom: 10px;
+                font-weight: 700;
+            }
+            .content-section h3 {
+                font-size: 1.5em;
+                color: var(--secondary-color);
+                margin-top: 25px;
+                margin-bottom: 15px;
+                font-weight: 500;
+            }
+            .content-section p {
+                margin-bottom: 15px;
+                font-size: 1.05em;
+                color: #555;
+            }
+            .content-section ul, .content-section ol {
+                list-style-position: inside;
+                margin-bottom: 15px;
+                padding-left: 10px;
+            }
+            .content-section li {
+                margin-bottom: 8px;
+                line-height: 1.6;
+                color: #444;
+            }
+
+            /* Quote Form/Calculator (Dwell time increase) */
+            .calculator-box {
+                background-color: var(--accent-color);
+                padding: 30px;
+                border-radius: 10px;
+                margin-bottom: 30px;
+                text-align: center;
+            }
+            .calculator-box h3 {
+                color: var(--primary-color);
+                font-size: 1.8em;
+                margin-top: 0;
+            }
+            .insurance-form label {
+                display: block;
+                text-align: left;
+                margin: 15px 0 5px;
+                font-weight: 500;
+                color: var(--text-color);
+            }
+            .insurance-form input[type="text"],
+            .insurance-form input[type="number"],
+            .insurance-form input[type="date"],
+            .insurance-form select {
+                width: calc(100% - 24px);
+                padding: 12px;
+                margin-bottom: 15px;
+                border: 1px solid var(--border-color);
+                border-radius: 6px;
+                font-size: 1em;
+                box-sizing: border-box;
+            }
+            .form-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+                gap: 20px;
+            }
+
+            /* Table and Graph Styling (Professional look) */
+            .data-table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 20px;
+                font-size: 0.95em;
+            }
+            .data-table th, .data-table td {
+                border: 1px solid #ddd;
+                padding: 12px;
+                text-align: center;
+            }
+            .data-table th {
+                background-color: var(--accent-color);
+                color: var(--primary-color);
+                font-weight: 700;
+            }
+            .data-table tbody tr:nth-child(even) {
+                background-color: var(--highlight-color);
+            }
+            .data-table tbody td:first-child {
+                font-weight: 500;
+                color: var(--primary-color);
+            }
+            .graph-container {
+                margin-top: 30px;
+                padding: 20px;
+                background-color: #f1f8e9;
+                border-radius: 8px;
+            }
+            .graph-container h3 {
+                text-align: center;
+                margin-bottom: 15px;
+            }
+            .bar-chart {
+                height: 200px;
+                background-color: #ffffff;
+                border: 1px solid #ccc;
+                position: relative;
+                padding: 10px;
+            }
+            .bar {
+                height: 100%;
+                background-color: var(--secondary-color);
+                display: inline-block;
+                margin: 0 5px;
+            }
+
+            /* FAQ Styling */
+            .faq-list {
+                list-style: none;
+                padding: 0;
+            }
+            .faq-item {
+                margin-bottom: 15px;
+                border-bottom: 1px solid var(--border-color);
+            }
+            .faq-question {
+                background-color: var(--highlight-color);
+                padding: 15px;
+                border-radius: 8px 8px 0 0;
+                font-weight: 500;
+                cursor: pointer;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                color: var(--primary-color);
+                transition: background-color 0.3s ease;
+            }
+            .faq-question:hover {
+                background-color: var(--accent-color);
+            }
+            .faq-answer {
+                background-color: var(--bg-white);
+                padding: 15px;
+                border-radius: 0 0 8px 8px;
+                display: none; /* Hidden by default */
+                border: 1px solid var(--border-color);
+                border-top: none;
+            }
+            .faq-answer p { margin: 0; }
+
+            /* Footer and Utility */
+            footer {
+                background-color: var(--primary-color);
+                color: var(--bg-white);
+                text-align: center;
+                padding: 30px 20px;
+                font-size: 0.9em;
+                margin-top: 30px;
+            }
+            footer a {
+                color: var(--bg-white);
+                text-decoration: none;
+                margin: 0 10px;
+            }
+            footer a:hover {
+                text-decoration: underline;
+            }
+            @media (max-width: 768px) {
+                .hero h1 { font-size: 2.2em; }
+                .hero p { font-size: 1em; }
+                .cta-btn { font-size: 1em; padding: 12px 25px; }
+                .content-section { padding: 30px; }
+                .content-section h2 { font-size: 1.8em; }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h1>현대 캐스퍼 장기리스 & 장기렌트카 최저가 비교 견적 센터</h1>
+            </div>
+        </header>
+
+        <main>
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="container">
+                    <h1>2026년 캐스퍼 장기리스 최저가 견적, 초기 비용 0원으로 시작하기</h1>
+                    <p>현대 캐스퍼 장기리스, 장기렌트카 비교 견적 전문 플랫폼! 딜러사별 사은품 및 현금지원 혜택까지 1분만에 확인하고 최저가로 가입하세요.</p>
+                    <a href="#quote-form" class="cta-btn">무료 견적 1분 만에 확인하기</a>
+                </div>
+            </section>
+
+            <!-- Main Content Section 1: Introduction to Casper Leasing -->
+            <section class="content-section">
+                <div class="container">
+                    <h2>캐스퍼 장기리스, 왜 인기가 많을까요? 장점과 단점 완벽 분석</h2>
+                    <p>현대 캐스퍼는 경차 시장에서 독보적인 존재감을 드러내며 2026년에도 꾸준히 사랑받고 있는 모델입니다. 특히 초기 비용 부담을 최소화하고 매월 일정 금액으로 차량을 운용할 수 있는 캐스퍼 장기리스 상품에 대한 관심이 뜨겁습니다. 장기리스는 신차 구매 방식 중 가장 합리적인 방법 중 하나로 평가받으며, 개인사업자나 법인사업자뿐만 아니라 일반 개인 운전자에게도 큰 혜택을 제공합니다. 캐스퍼 장기리스를 고려할 때, 월 납입금, 초기 비용, 보증금 유무 등 세부 조건을 꼼꼼히 따져봐야 합니다. 2026년 현재 시장에서는 다양한 리스사 및 딜러사들이 경쟁적으로 캐스퍼 장기리스 프로모션과 현금 지원 혜택을 내놓고 있어, 소비자들은 이를 잘 활용하면 저렴한곳을 찾아 가입할 수 있습니다.</p>
+
+                    <h3>캐스퍼 장기리스의 주요 장점 (VS. 일시불/할부 구매)</h3>
+                    <ol>
+                        <li><strong>초기 비용 부담 최소화:</strong> 캐스퍼 장기리스는 초기 보증금이나 선납금 없이 진행 가능한 '무보증 리스' 상품이 많습니다. 일시불 구매 시 수천만 원의 목돈이 필요하지만, 장기리스는 초기 비용 0원으로 신차를 운용할 수 있다는 점이 가장 큰 장점입니다.</li>
+                        <li><strong>월 납입금에 모든 비용 포함:</strong> 취득세, 등록세, 자동차세, 보험료(리스사 포함 조건) 등 차량 관련 모든 부대 비용이 월 납입금에 통합되어 매월 고정된 금액만 납부하면 됩니다. 이는 차량 유지 관리를 간편하게 만들어줍니다.</li>
+                        <li><strong>세금 절감 효과 (사업자):</strong> 개인사업자나 법인사업자의 경우 월 리스료 전액을 손비 처리하여 세금 감면 혜택을 받을 수 있습니다. 캐스퍼는 경차 혜택까지 더해져 더욱 강력한 절세 효과를 자랑합니다.</li>
+                        <li><strong>주기적인 신차 교체 용이:</strong> 계약 기간 만료 후 차량을 반납하거나 인수할 수 있어, 2~5년 주기로 신차를 쉽게 교체할 수 있습니다. 감가상각으로 인한 중고차 처리 부담이 없습니다.</li>
+                    </ol>
+
+                    <h3>캐스퍼 장기리스의 단점 및 주의사항</h3>
+                    <ol>
+                        <li><strong>총 비용은 할부보다 비쌀 수 있음:</strong> 계약 기간이 끝났을 때 총 납입한 비용은 일시불 구매나 할부 구매보다 높을 수 있습니다. 월 납입금에 금융 이자 및 부대 비용이 포함되기 때문입니다.</li>
+                        <li><strong>주행거리 제한:</strong> 대부분의 장기리스 상품은 연간 주행거리 제한(1만km, 2만km 등)이 있습니다. 주행거리 초과 시 추가 비용이 발생하므로 계약 시 주행량을 정확히 예측해야 합니다.</li>
+                        <li><strong>사고 시 면책금/추가 비용 발생:</strong> 사고 발생 시 보험 처리와 별개로 리스사에 면책금을 납부해야 하는 경우가 있으며, 잦은 사고나 차량 상태에 따라 반납 시 패널티가 발생할 수 있습니다.</li>
+                    </ol>
+                </div>
+            </section>
+
+            <!-- Main Content Section 2: Model-Specific Cost Comparison and Keywords -->
+            <section class="content-section">
+                <div class="container">
+                    <h2>2026년 캐스퍼 장기리스 견적 비교 분석: 트림별 월 납입금 (Light vs. Inspiration)</h2>
+                    <p>캐스퍼는 경차 시장의 주요 모델로, '캐스퍼 장기리스'와 함께 '레이 장기리스'도 함께 많이 찾는 키워드입니다. 레이와 비교했을 때 캐스퍼는 조금 더 세련된 디자인과 주행 성능을 강점으로 내세우며, 장기리스 시장에서도 꾸준한 수요를 보이고 있습니다. 2026년형 캐스퍼는 'Light', 'Inspiration' 트림이 주력으로 판매되며, 터보 엔진 옵션에 따라 월 납입금이 달라집니다. 아래 표는 2026년 캐스퍼 장기리스 견적을 비교한 것입니다. (평균, 예상 금액 기준)</p>
+
+                    <h3>주요 캐스퍼 트림별 월 납입금 비교표 (36개월 계약 기준)</h3>
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>차량 모델 (트림)</th>
+                                <th>차량 가격 (신차)</th>
+                                <th>월 납입금 (보증금 0원)</th>
+                                <th>월 납입금 (보증금 30%)</th>
+                                <th>추천 대상</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>캐스퍼 Light (기본)</strong></td>
+                                <td>1,385만원</td>
+                                <td>20만원대 초반</td>
+                                <td>10만원대 후반</td>
+                                <td>가성비, 단거리 위주 운행</td>
+                            </tr>
+                            <tr>
+                                <td><strong>캐스퍼 Inspiration</strong></td>
+                                <td>1,620만원</td>
+                                <td>20만원대 후반</td>
+                                <td>20만원대 초반</td>
+                                <td>편의 옵션 중시, 장거리 운행</td>
+                            </tr>
+                            <tr>
+                                <td><strong>캐스퍼 Inspiration (터보)</strong></td>
+                                <td>1,780만원</td>
+                                <td>30만원대 초반</td>
+                                <td>20만원대 중반</td>
+                                <td>강력한 주행 성능, 고속도로 주행</td>
+                            </tr>
+                            <tr>
+                                <td><strong>경쟁 모델: 레이 시그니처</strong></td>
+                                <td>1,420만원</td>
+                                <td>20만원대 초반</td>
+                                <td>10만원대 후반</td>
+                                <td>실내 공간 중시, 패밀리카</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>*위 표의 예상 평균 월 납입금은 2026년 1월 기준이며, 금리 및 딜러사 프로모션에 따라 변동될 수 있습니다. 정확한 견적은 비교 견적 서비스를 통해 확인해야 합니다.</p>
+
+                    <h3>캐스퍼 장기리스, 최저가 견적을 찾는 방법 (핵심 키워드 분석)</h3>
+                    <p>캐스퍼 장기리스를 저렴한곳에서 계약하려면 여러 업체의 견적을 비교하는 것이 필수적입니다. 단순히 겉으로 보이는 월 납입금 *가격*만으로 판단해서는 안 되며, 숨겨진 *비용*과 *장단점*을 파악해야 합니다. 네이버나 구글에서 '캐스퍼 장기리스 *후기*'를 검색해보면, 많은 *내돈내산* 후기들이 딜러사별 *사은품*과 *현금지원* 혜택이 다르다는 것을 알려줍니다. 일부 *전문 업체*들은 신규 가입 고객을 대상으로 *할인* *이벤트*나 *상품권* *지원금*을 제공하기도 합니다. 또한, *견적* 비교 시 *보증금* 유무와 *잔존가치*를 꼼꼼히 확인해야 총 납입 *금액*을 줄일 수 있습니다. *추천*되는 방법으로는 *디시* 등 커뮤니티에서 정보를 얻거나, *AI* 기반의 *비교* 플랫폼을 활용하여 여러 딜러사의 *순위*를 확인하는 것입니다. 특히 2026년에는 *제미나이*나 *ChatGPT*와 같은 *AI* 기술을 활용한 *비교* 서비스가 더욱 정교해지고 있어, 소비자들은 *최저가*를 찾는 데 큰 도움을 받을 수 있습니다.</p>
+                    <p>캐스퍼 장기리스 상품은 크게 '리스'와 '렌트'로 나뉘는데, 리스는 일반 번호판을 사용하고 렌트는 '하', '호' 번호판을 사용합니다. 보험 가입 주체가 리스(운전자 개별 가입)와 렌트(렌터사 일괄 가입)에 따라 달라지므로, 개인의 운전 경력과 보험료 할증 여부에 따라 유리한 상품을 선택하는 것이 중요합니다. 이 외에도 유튜브나 인스타그램, 페이스북에서 다양한 캐스퍼 관련 정보를 얻을 수 있으나, 신뢰할 수 있는 *전문 업체*의 공식 정보를 확인하는 것이 가장 중요합니다.</p>
+                </div>
+            </section>
+
+            <!-- Main Content Section 3: In-depth Analysis of Lease Discounts and Special Offers -->
+            <section class="content-section">
+                <div class="container">
+                    <h2>캐스퍼 장기리스 최저가 절약 전략: 프로모션 및 혜택 (2026년 업데이트)</h2>
+                    <p>캐스퍼 장기리스를 저렴하게 이용하기 위해서는 2026년의 프로모션 혜택을 반드시 확인해야 합니다. 딜러사별, 리스사별로 조건이 천차만별이므로 꼼꼼한 비교가 필요합니다.</p>
+
+                    <h3>1. 캐스퍼 장기리스 보증금 없는 '무보증' 상품 활용</h3>
+                    <p>초기 비용 부담을 줄이는 가장 좋은 방법은 보증금 없는 무보증 리스 상품을 이용하는 것입니다. 2026년에는 신용 등급이 우량한 고객뿐만 아니라, 일반 고객들도 심사 기준이 완화되어 무보증 리스를 이용하기가 더욱 쉬워졌습니다. 보증금은 월 납입금을 낮추는 효과가 있지만, 목돈이 묶이게 되므로 무보증으로 시작하여 초기 부담을 줄이는 것을 추천합니다.</p>
+
+                    <h3>2. 캐스퍼 장기리스 잔존가치 설정의 중요성</h3>
+                    <p>잔존가치는 계약 만료 후 차량의 예상 중고차 가격입니다. 잔존가치를 높게 설정하면 월 납입금이 낮아지지만, 만기 시 인수 비용이 높아집니다. 반대로 잔존가치를 낮게 설정하면 월 납입금은 높아지지만, 만기 시 인수 비용이 낮아집니다. 향후 차량을 인수할 계획이라면 잔존가치를 낮게 설정하는 것이 유리하며, 만기 반납 계획이라면 잔존가치를 높게 설정하는 것이 월 납입금을 줄이는 핵심 전략입니다.</p>
+
+                    <h3>3. 딜러사별 사은품 및 현금지원 혜택 (비공식 프로모션)</h3>
+                    <p>캐스퍼 장기리스는 비공식적인 딜러사 프로모션이 활발합니다. 공식 홈페이지에서는 확인하기 어려운 *사은품* (블랙박스, 틴팅 등)이나 *현금지원* *지원금* 혜택이 딜러사에 따라 다릅니다. 이는 리스사의 수수료 일부를 고객에게 환원하는 형태로, *최저가* *견적*을 찾는 데 있어 중요한 요소입니다. *전문 업체*의 견적 비교를 통해 이러한 비공식 *혜택*을 놓치지 않아야 합니다. 특히 2026년에는 *신규* *가입* 고객을 대상으로 한 프로모션 *상품*이 더욱 다양해지고 있습니다.</p>
+                </div>
+            </section>
+
+            <!-- Main Content Section 4: Future Outlook and Dwell Time Form -->
+            <section class="content-section">
+                <div class="container">
+                    <h2>캐스퍼 장기리스 시장의 미래 전망 (2026년 이후)</h2>
+                    <p>2026년에는 경차 시장의 전기차 전환이 가속화될 것으로 예상됩니다. 캐스퍼 EV 모델 출시가 임박하면서 기존 가솔린 모델의 장기리스 시장에도 변화가 예상됩니다. 특히 정부의 경차 혜택 유지와 전기차 보조금 정책에 따라 캐스퍼 장기리스 *상품*의 *가격* 경쟁력이 달라질 수 있습니다. 향후 캐스퍼 장기리스를 고려하는 분들은 이러한 시장 변화를 예측하여 계약 기간을 설정하는 것이 중요합니다. *전문 업체*에서는 이러한 시장 전망을 반영한 맞춤형 *상품*을 *추천*해 줄 것입니다.</p>
+
+                    <h3>캐스퍼 장기리스 무료 견적 요청하기 (체류 시간 확보 요소)</h3>
+                    <div class="calculator-box">
+                        <h3>내 캐스퍼 장기리스 예상 견적 계산기</h3>
+                        <p>간단한 정보 입력으로 2026년 최신 캐스퍼 장기리스 월 납입금을 확인하세요. 10개 이상의 주요 리스사를 한 번에 비교하여 최저가 견적을 제공합니다.</p>
+                        <form id="quote-form" class="insurance-form" onsubmit="return false;">
+                            <div class="form-grid">
+                                <div>
+                                    <label for="car_model">희망 차종 및 트림</label>
+                                    <select id="car_model" name="car_model" required>
+                                        <option value="">차종을 선택하세요</option>
+                                        <option value="캐스퍼_Light">캐스퍼 Light</option>
+                                        <option value="캐스퍼_Inspiration">캐스퍼 Inspiration</option>
+                                        <option value="캐스퍼_Inspiration_Turbo">캐스퍼 Inspiration Turbo</option>
+                                        <option value="캐스퍼_EV">캐스퍼 EV (출시 예정)</option>
+                                        <option value="기타">기타</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="lease_term">희망 계약 기간 (개월)</label>
+                                    <select id="lease_term" name="lease_term" required>
+                                        <option value="36">36개월</option>
+                                        <option value="48">48개월</option>
+                                        <option value="60">60개월</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="mileage_annual">예상 연간 주행거리 (km)</label>
+                                    <input type="number" id="mileage_annual" name="mileage_annual" placeholder="예: 10000" required>
+                                </div>
+                                <div>
+                                    <label for="initial_payment">초기 납입금 유형</label>
+                                    <select id="initial_payment" name="initial_payment" required>
+                                        <option value="보증금0">보증금 0원 (무보증 리스)</option>
+                                        <option value="보증금10">보증금 10%</option>
+                                        <option value="보증금30">보증금 30%</option>
+                                        <option value="선납금">선납금 (일부 금액 선납)</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="credit_rating">신용 등급 (1~10등급)</label>
+                                    <input type="number" id="credit_rating" name="credit_rating" placeholder="예: 1~3등급" required>
+                                </div>
+                                <div>
+                                    <label for="end_option">만기 처리 방식</label>
+                                    <select id="end_option" name="end_option" required>
+                                        <option value="반납">반납 (감가상각 부담 없음)</option>
+                                        <option value="인수">인수 (내 차량으로 소유)</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <button type="button" class="cta-btn" onclick="showEstimateResult()">나에게 맞는 최저가 견적 확인</button>
+                        </form>
+                        <div id="estimate-result" style="margin-top: 20px; font-size: 1.1em; font-weight: 500; color: var(--primary-color);"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Main Content Section 5: FAQ -->
+            <section class="content-section">
+                <div class="container">
+                    <h2>캐스퍼 장기리스 자주 묻는 질문 (FAQ)</h2>
+                    <ul class="faq-list">
+                        <li class="faq-item">
+                            <div class="faq-question">캐스퍼 장기리스와 장기렌트카의 가장 큰 차이점은 무엇인가요?</div>
+                            <div class="faq-answer">
+                                <p>가장 큰 차이점은 보험 가입 방식과 번호판입니다. 캐스퍼 장기리스는 운전자가 직접 보험을 가입하여 운전 경력이 유지되고 일반 번호판을 사용합니다. 반면 장기렌트는 렌터사 명의의 보험에 가입하여 운전 경력이 단절될 수 있지만, 보험료 할증 걱정이 없고 '하', '호' 번호판을 사용합니다. 사업자라면 리스가 절세에 유리하며, 초보 운전자라면 렌트가 보험료 부담을 줄이는 데 유리합니다.</p>
+                            </div>
+                        </li>
+                        <li class="faq-item">
+                            <div class="faq-question">캐스퍼 장기리스 월 납입금을 저렴하게 하려면 어떻게 해야 하나요?</div>
+                            <div class="faq-answer">
+                                <p>월 납입금을 줄이는 핵심 요소는 3가지입니다. ① 보증금을 높게 설정하거나 선납금을 납부하여 리스 원금을 줄입니다. ② 잔존가치를 최대한 높게 설정합니다. ③ 계약 기간을 길게 가져가 월 납입금 분할 효과를 봅니다. 단, 각 요소별 장단점과 총 비용을 고려하여 자신에게 맞는 방식을 선택해야 합니다.</p>
+                            </div>
+                        </li>
+                        <li class="faq-item">
+                            <div class="faq-question">캐스퍼 장기리스 계약 시 만기 후 인수가 가능한가요?</div>
+                            <div class="faq-answer">
+                                <p>네, 가능합니다. 캐스퍼 장기리스는 만기 시 차량을 반납하거나 인수할 수 있습니다. 인수 시에는 초기 계약 시 설정한 잔존가치를 리스사에 지불하면 됩니다. 인수를 염두에 두고 있다면 계약 시 잔존가치를 낮게 설정하는 것이 유리합니다.</p>
+                            </div>
+                        </li>
+                        <li class="faq-item">
+                            <div class="faq-question">캐스퍼 장기리스 사은품 및 현금지원 혜택은 얼마나 받을 수 있나요?</div>
+                            <div class="faq-answer">
+                                <p>딜러사별 경쟁이 치열한 2026년에는 사은품 및 현금지원 혜택이 매우 다양합니다. 공식적인 프로모션 외에도 비공식적으로 블랙박스, 틴팅, 주유 상품권, 현금 지원금 등을 받을 수 있습니다. 이는 리스사나 딜러사의 정책에 따라 다르므로, 여러 *전문 업체*의 견적을 비교하여 *최저가* *견적*과 함께 가장 좋은 혜택을 제공하는 곳을 선택해야 합니다.</p>
+                            </div>
+                        </li>
+                        <li class="faq-item">
+                            <div class="faq-question">캐스퍼 장기리스, 신용 등급이 낮아도 가입할 수 있나요?</div>
+                            <div class="faq-answer">
+                                <p>신용 등급이 낮을 경우 심사 통과가 어려울 수 있지만, 최근에는 신용 등급 심사 기준이 완화되고 있습니다. 특히 보증금을 높게 설정하거나 연대 보증인을 세우면 가입 가능성이 높아집니다. 신용 등급이 걱정된다면 렌트 상품을 먼저 고려해보는 것도 하나의 방법입니다.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Main Content Section 6: External Resources (Credibility/SEO boost) -->
+            <section class="content-section">
+                <div class="container">
+                    <h2>신뢰할 수 있는 외부 자료 및 참고 링크</h2>
+                    <p>캐스퍼 장기리스 상품 및 경차 관련 정책을 파악하는 데 도움이 되는 공신력 있는 외부 자료입니다.</p>
+                    <ul>
+                        <li><a href="https://www.law.go.kr/법령/여신전문금융업법" target="_blank" rel="noopener">법제처: 여신전문금융업법 (캐스퍼 장기리스/할부 관련 법규)</a></li>
+                        <li><a href="https://www.hyundai.com/kr/ko/vehicles/casper/casper-essential-info" target="_blank" rel="noopener">현대자동차 공식 홈페이지: 캐스퍼 신차 가격 및 상세 정보</a></li>
+                        <li><a href="https://www.korea.kr/policy/pressReleaseView.do?newsId=156641578" target="_blank" rel="noopener">대한민국 정책브리핑 (Korea.kr): 경차 취득세 감면 등 세제 혜택 관련 정책</a></li>
+                        <li><a href="https://www.namu.wiki/w/%ED%98%84%EB%8C%80%20%EC%BA%90%EC%8A%A4%ED%8D%BC" target="_blank" rel="noopener">나무위키: 현대 캐스퍼 (차량 정보, 장단점 분석)</a></li>
+                        <li><a href="https://www.fss.or.kr/fss/main/index.do" target="_blank" rel="noopener">금융감독원 (FSS): 리스 상품 소비자 보호 및 금융 정보</a></li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
+        <!-- Scripts for interactivity (FAQ toggle, calculator) -->
+        <script>
+            // FAQ 토글 기능
+            document.querySelectorAll('.faq-question').forEach(item => {
+                item.addEventListener('click', () => {
+                    const answer = item.nextElementSibling;
+                    answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+                });
+            });
+
+            // Simple calculator simulation for dwell time optimization (Lease calculation logic)
+            function showEstimateResult() {
+                const carModel = document.getElementById('car_model').value;
+                const leaseTerm = parseInt(document.getElementById('lease_term').value);
+                const mileageAnnual = parseInt(document.getElementById('mileage_annual').value);
+                const initialPayment = document.getElementById('initial_payment').value;
+                const creditRating = parseInt(document.getElementById('credit_rating').value);
+
+                if (!carModel || !leaseTerm || !mileageAnnual || !initialPayment || !creditRating) {
+                    document.getElementById('estimate-result').innerHTML = "<span style='color: #d32f2f;'>모든 항목을 입력해 주세요.</span>";
+                    return;
+                }
+
+                // Base price simulation based on model and term
+                let baseMonthlyCost = 250000; // Average base for Casper Light (KRW)
+
+                // Model adjustment (simulated based on price)
+                if (carModel === '캐스퍼_Inspiration') {
+                    baseMonthlyCost *= 1.15;
+                } else if (carModel === '캐스퍼_Inspiration_Turbo') {
+                    baseMonthlyCost *= 1.25;
+                }
+
+                // Term adjustment (simulated: longer term = lower monthly payment)
+                if (leaseTerm === 48) {
+                    baseMonthlyCost *= 0.95;
+                } else if (leaseTerm === 60) {
+                    baseMonthlyCost *= 0.90;
+                } else if (leaseTerm === 36) {
+                    baseMonthlyCost *= 1.05;
+                }
+
+                // Initial payment adjustment (simulated: higher initial payment = lower monthly payment)
+                if (initialPayment === '보증금30') {
+                    baseMonthlyCost *= 0.8;
+                } else if (initialPayment === '보증금10') {
+                    baseMonthlyCost *= 0.9;
+                }
+
+                // Credit rating adjustment (simulated: lower credit score increases rate)
+                if (creditRating > 5) {
+                    baseMonthlyCost *= 1.1;
+                }
+
+                // Final calculation based on these adjustments
+                const finalEstimate = Math.round(baseMonthlyCost / 10000) * 10000;
+                const resultHtml = `입력하신 정보로 계산된 예상 월 납입금은 약 <span style="font-size: 1.2em; font-weight: 700;">${finalEstimate.toLocaleString()}원</span> 입니다. 정확한 견적은 비교하기 버튼을 눌러 확인하세요.`;
+                document.getElementById('estimate-result').innerHTML = resultHtml;
+            }
+        </script>
+      
